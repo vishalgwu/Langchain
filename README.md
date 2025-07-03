@@ -93,6 +93,7 @@ Langchain/
 ├── .env
 ├── req.txt
 └── README.md
+```
 
 
 ## 📂 Folder Explanations
@@ -118,25 +119,33 @@ Langchain/
 ```bash
 git clone https://github.com/vishalgwu/Langchain.git
 cd Langchain
+```
 
 ## Create a virtual environment-
+```
 python -m venv venv
-
+```
 ## Activate the environment
-
+```
 On Windows:venv\Scripts\activate
+```
 
 On macOS/Linux:
-
+```
 bash
 source venv/bin/activate
+```
 
 Install dependencies:
+```
 pip install -r req.txt
-
+```
 ## API Keys & Environment Variables-
 Copy the .env file provided, or create your own .env file in the root of the project.
-
+```
+```
 Add your own API keys and secrets to the .env file, for example:
+```
 OPENAI_API_KEY=your_openai_api_key
 HUGGINGFACE_API_KEY=your_huggingface_api_key
+```
